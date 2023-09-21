@@ -21,6 +21,9 @@
   },
   "homepage": "https://github.com/truongduyht/backend#readme",
   "dependencies": {
+    "@babel/core": "^7.22.20",
+    "@babel/node": "^7.22.19",
+    "@babel/preset-env": "^7.22.20",
     "body-parser": "^1.20.2",
     "dotenv": "^16.3.1",
     "ejs": "^3.1.9",
