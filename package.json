@@ -2,36 +2,24 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
-    "start": "nodemon --inspect src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/truongduyht/backend.git"
+    "url": "git+https://github.com/truongduyht/backend-project.git"
   },
-  "keywords": [
-    "backend"
-  ],
   "author": "b2014734",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/truongduyht/backend/issues"
+    "url": "https://github.com/truongduyht/backend-project/issues"
   },
-  "homepage": "https://github.com/truongduyht/backend#readme",
+  "homepage": "https://github.com/truongduyht/backend-project#readme",
   "dependencies": {
-    "@babel/core": "^7.22.20",
-    "@babel/node": "^7.22.19",
-    "@babel/preset-env": "^7.22.20",
-    "body-parser": "^1.20.2",
-    "dotenv": "^16.3.1",
-    "ejs": "^3.1.9",
-    "express": "^4.18.2",
-    "express-handlebars": "^7.1.2"
-  },
-  "devDependencies": {
-    "morgan": "^1.10.0",
-    "nodemon": "^3.0.1"
+    "body-parser": "1.20.2",
+    "dotenv": "16.3.1",
+    "ejs": "3.1.9",
+    "express": "4.18.2"
   }
 }

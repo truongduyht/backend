@@ -1,5 +1,0 @@
-{
-    "presets":[
-        "@bable/preset-env"
-    ]
-}
